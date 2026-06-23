@@ -1,0 +1,44 @@
+    1  git config --global user.name Stanislav
+    2  git config --global user.email stah4444@gmail.com
+    3  git config --global --list
+    4  pwd
+    5  git clone https://github.com/StasHult/HW_10.git
+    6  ls
+    7  cd HW_10
+    8  ls
+    9  ls -la
+   10  touch text_ignore.txt
+   11  ls
+   12  git status
+   13  git add .
+   14  git commit
+   15  git commit -m "Added text_ignore file"
+   16  git log --oneline
+   17  git status
+   18  git add .
+   19  git commit -m "Task 1 completed"
+   20  git status
+   21  git log --oneline
+   22  git push
+   23  git push -u origin main
+   24  touch main_test.txt
+   25  ls
+   26  git add .
+   27  git commit -m "Added main_test file"
+   28  git log --oneline
+   29  git checkout -b develop
+   30  git branch
+   31  touch develop_test.txt
+   32  git add .
+   33  git commit -m "Added develop_test file"
+   34  notepad develop_test.txt
+   35  git status
+   36  git add .
+   37  git commit -m "Updated develop_test file"
+   38  git branch
+   39  git log --oneline --decorate --all
+   40  git checkout main
+   41  git branch
+   42  git merge develop
+   43  git log --oneline --graph --decorate --all
+   44  history > command_list.csv
